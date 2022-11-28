@@ -20,7 +20,7 @@ class InscriptionController extends AbstractController
     public function index(Request $request): Response
     {
 
-        $form = getData();
+      
 
         $form->handleRequest($request);
 
